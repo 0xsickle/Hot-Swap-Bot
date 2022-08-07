@@ -10,19 +10,18 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import ButtonLine from '../shared/ButtonLine.vue';
+import Vue from "vue";
+import ButtonLine from "../shared/ButtonLine.vue";
 
 export default Vue.extend({
-  name: 'Navigation',
+  name: "Navigation",
   components: {
     ButtonLine,
-  }
+  },
 });
 </script>
 
 <style lang="scss" scoped>
-
 #navigation {
   display: flex;
   flex-direction: row;

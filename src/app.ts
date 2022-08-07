@@ -1,4 +1,4 @@
-import {Server} from "./server/Server";
+import { Server } from "./server/Server";
 
-const server = new Server()
+const server = new Server();
 server.start();

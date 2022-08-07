@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="delimiter"></div>
-        <div class="zone">
+    <div class="zone">
       <div class="icon">
         <icon icon="la-dollar-sign" size="50"></icon>
       </div>
@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="delimiter"></div>
-        <div class="zone">
+    <div class="zone">
       <div class="icon">
         <icon icon="la-scroll" size="50"></icon>
       </div>
@@ -33,12 +33,12 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import Icon from '../shared/Icon.vue';
+import Vue from "vue";
+import Icon from "../shared/Icon.vue";
 
 export default Vue.extend({
-  name: 'resume',
-  components: {Icon}
+  name: "resume",
+  components: { Icon },
 });
 </script>
 
@@ -75,7 +75,7 @@ export default Vue.extend({
   .delimiter {
     width: 1px;
     margin: 0 5%;
-    background-color: #CCCCCC;
+    background-color: #cccccc;
   }
 }
 </style>

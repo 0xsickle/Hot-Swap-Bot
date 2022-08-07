@@ -1,32 +1,34 @@
 <template>
-  <i class="las" :class="icon" :style="`font-size: ${size}px; color: ${color}`"></i>
+  <i
+    class="las"
+    :class="icon"
+    :style="`font-size: ${size}px; color: ${color}`"
+  ></i>
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import Vue from "vue";
 
 export default Vue.extend({
-  name: 'icon',
+  name: "icon",
   props: {
     icon: {
       type: String,
       required: false,
-      default: "la-grin-hearts"
+      default: "la-grin-hearts",
     },
     size: {
       type: String,
       required: false,
-      default: 12
+      default: 12,
     },
     color: {
       type: String,
       required: false,
-      default: "black"
-    }
-  }
+      default: "black",
+    },
+  },
 });
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

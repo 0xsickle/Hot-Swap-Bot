@@ -8,8 +8,7 @@
     "sourceMap": true,
     "noEmitHelpers": false,
     "moduleResolution": "node",
-    "paths": {
-    },
+    "paths": {},
     "baseUrl": "./"
   }
 }

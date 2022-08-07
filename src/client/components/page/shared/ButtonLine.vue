@@ -6,21 +6,21 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import Vue from "vue";
 
 export default Vue.extend({
-  name: 'button-line'
+  name: "button-line",
 });
 </script>
 
 <style lang="scss">
 .button-line {
-  font-family: 'Poppins Thin', sans-serif;
+  font-family: "Poppins Thin", sans-serif;
   font-weight: bold;
 
   cursor: pointer;
 
-  &>div {
+  & > div {
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
   }

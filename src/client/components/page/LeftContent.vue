@@ -8,17 +8,17 @@
 
 <script lang="ts">
 import Vue from "vue";
-import Navigation from './left-content/Navigation.vue';
-import Resume from './left-content/Resume.vue';
-import Orders from './left-content/Orders.vue';
+import Navigation from "./left-content/Navigation.vue";
+import Resume from "./left-content/Resume.vue";
+import Orders from "./left-content/Orders.vue";
 
 export default Vue.extend({
   name: "left-content",
   components: {
     Orders,
     Resume,
-    Navigation
-  }
+    Navigation,
+  },
 });
 </script>
 
